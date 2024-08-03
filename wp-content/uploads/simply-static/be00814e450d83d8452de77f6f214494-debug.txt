@@ -1,0 +1,770 @@
+[2024-07-24 20:47:30] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-07-24 20:47:30] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-07-24 20:47:30] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-07-24 20:47:36] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-07-24 20:47:37] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-07-24 20:47:37] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-07-24 20:47:41] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050\
+[2024-07-24 20:47:41] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/staff-modelaje-profesional/
+[2024-07-24 20:47:41] [class-ss-setup-task.php:137] File C:\xampp\htdocs\staff-modelaje-profesional\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-07-24 20:47:41] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-07-24 20:47:41] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-24 20:47:41] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-24 20:47:41] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-07-24 20:47:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/
+[2024-07-24 20:47:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-07-24 20:47:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1686e14410-9U69Vy.tmp
+[2024-07-24 20:47:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/?simply_static_page=168
+[2024-07-24 20:47:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/?simply_static_page=168
+[2024-07-24 20:47:48] [class-ss-url-fetcher.php:103] Filesize: 99352 bytes
+[2024-07-24 20:47:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-24 20:47:48] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-07-24 20:47:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1686e14410-9U69Vy.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/index.html
+[2024-07-24 20:47:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:49] [class-ss-fetch-urls-task.php:159] Adding 46 URLs to the queue
+[2024-07-24 20:47:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:50] [class-ss-page.php:118] Checking Content Identical:cfc8ca6ff544944d1abf44438d55ddcd5cddb2de===. Value: FALSE
+[2024-07-24 20:47:50] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-07-24 20:47:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-07-24 20:47:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:50] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-07-24 20:47:50] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-07-24 20:47:50] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-24 20:47:50] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-24 20:47:50] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-24 20:47:50] [class-ss-fetch-urls-task.php:69] Total pages: 48; Pages remaining: 46
+[2024-07-24 20:47:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional
+[2024-07-24 20:47:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 48
+[2024-07-24 20:47:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a168770e6df-H8wx8a.tmp
+[2024-07-24 20:47:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional?simply_static_page=170
+[2024-07-24 20:47:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional?simply_static_page=170
+[2024-07-24 20:47:51] [class-ss-url-fetcher.php:103] Filesize: 374 bytes
+[2024-07-24 20:47:51] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-07-24 20:47:51] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-24 20:47:51] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/staff-modelaje-profesional/
+[2024-07-24 20:47:51] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-07-24 20:47:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/pagina-ejemplo/
+[2024-07-24 20:47:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 48
+[2024-07-24 20:47:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a168774f4e0-BiH2Gu.tmp
+[2024-07-24 20:47:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/pagina-ejemplo/?simply_static_page=171
+[2024-07-24 20:47:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/pagina-ejemplo/?simply_static_page=171
+[2024-07-24 20:47:51] [class-ss-url-fetcher.php:103] Filesize: 61145 bytes
+[2024-07-24 20:47:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-07-24 20:47:51] [class-ss-url-fetcher.php:233] New filename for static page: /pagina-ejemplo/index.html
+[2024-07-24 20:47:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a168774f4e0-BiH2Gu.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/pagina-ejemplo/index.html
+[2024-07-24 20:47:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:52] [class-ss-page.php:118] Checking Content Identical:68a3b5aa5e8ac37f948486d92874e29dac2ef0d3===. Value: FALSE
+[2024-07-24 20:47:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/category/sin-categoria/
+[2024-07-24 20:47:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 48
+[2024-07-24 20:47:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a168783f179-iWnh0i.tmp
+[2024-07-24 20:47:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/category/sin-categoria/?simply_static_page=172
+[2024-07-24 20:47:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/category/sin-categoria/?simply_static_page=172
+[2024-07-24 20:47:52] [class-ss-url-fetcher.php:103] Filesize: 65212 bytes
+[2024-07-24 20:47:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-07-24 20:47:52] [class-ss-url-fetcher.php:233] New filename for static page: /category/sin-categoria/index.html
+[2024-07-24 20:47:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a168783f179-iWnh0i.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/category/sin-categoria/index.html
+[2024-07-24 20:47:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:52] [class-ss-page.php:118] Checking Content Identical:441a9f5855da707405dc244f313a3538ea15d4b5===. Value: FALSE
+[2024-07-24 20:47:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/2024/07/14/hola-mundo/
+[2024-07-24 20:47:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 48
+[2024-07-24 20:47:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a168790cf41-JktbcT.tmp
+[2024-07-24 20:47:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/2024/07/14/hola-mundo/?simply_static_page=173
+[2024-07-24 20:47:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/2024/07/14/hola-mundo/?simply_static_page=173
+[2024-07-24 20:47:53] [class-ss-url-fetcher.php:103] Filesize: 78857 bytes
+[2024-07-24 20:47:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-07-24 20:47:53] [class-ss-url-fetcher.php:233] New filename for static page: /2024/07/14/hola-mundo/index.html
+[2024-07-24 20:47:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a168790cf41-JktbcT.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/2024/07/14/hola-mundo/index.html
+[2024-07-24 20:47:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:53] [class-ss-page.php:118] Checking Content Identical:1a39adbad9a353d56481b4ad35b834ac32265b4a===. Value: FALSE
+[2024-07-24 20:47:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/2024/07/
+[2024-07-24 20:47:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 48
+[2024-07-24 20:47:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a16879d77ad-WmAZXr.tmp
+[2024-07-24 20:47:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/2024/07/?simply_static_page=174
+[2024-07-24 20:47:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/2024/07/?simply_static_page=174
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:103] Filesize: 1543 bytes
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:233] New filename for static page: /2024/07/index.html
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a16879d77ad-WmAZXr.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/2024/07/index.html
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:54] [class-ss-page.php:118] Checking Content Identical:212fc5fe8e4408cf165d13ec59de39d4afee7e9f===. Value: FALSE
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/main-banner.jpg
+[2024-07-24 20:47:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 48
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687a3ac9b-H5oLXY.tmp
+[2024-07-24 20:47:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/main-banner.jpg?simply_static_page=175
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/main-banner.jpg?simply_static_page=175
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:103] Filesize: 204208 bytes
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/main-banner.jpg
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687a3ac9b-H5oLXY.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/themes/gutenify-photoshot/images/main-banner.jpg
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:54] [class-ss-page.php:118] Checking Content Identical:703f3983ac3fe50fd45724f05a7655ee6d95c77a===. Value: FALSE
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-1.jpg
+[2024-07-24 20:47:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 48
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687a83354-TFgVtr.tmp
+[2024-07-24 20:47:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-1.jpg?simply_static_page=176
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-1.jpg?simply_static_page=176
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:103] Filesize: 200718 bytes
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-1.jpg
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687a83354-TFgVtr.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/themes/gutenify-photoshot/images/gallery-1.jpg
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:54] [class-ss-page.php:118] Checking Content Identical:d48507e02c1a6274549b7746fd59dd959205e27d===. Value: FALSE
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-2.jpg
+[2024-07-24 20:47:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 48
+[2024-07-24 20:47:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687ac9f6a-GuMOVo.tmp
+[2024-07-24 20:47:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-2.jpg?simply_static_page=177
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-2.jpg?simply_static_page=177
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:103] Filesize: 104496 bytes
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-2.jpg
+[2024-07-24 20:47:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687ac9f6a-GuMOVo.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/themes/gutenify-photoshot/images/gallery-2.jpg
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:55] [class-ss-page.php:118] Checking Content Identical:e0459e8153ae36ca414c60f0e72691835659a882===. Value: FALSE
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-3.jpg
+[2024-07-24 20:47:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 48
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687b1e61b-Opj4YG.tmp
+[2024-07-24 20:47:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-3.jpg?simply_static_page=178
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-3.jpg?simply_static_page=178
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:103] Filesize: 96817 bytes
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-3.jpg
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687b1e61b-Opj4YG.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/themes/gutenify-photoshot/images/gallery-3.jpg
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:55] [class-ss-page.php:118] Checking Content Identical:a296a766f7976cdf4ddee5a7271a52ce70b25c51===. Value: FALSE
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-4.jpg
+[2024-07-24 20:47:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 48
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687b6036d-LEQafc.tmp
+[2024-07-24 20:47:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-4.jpg?simply_static_page=179
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-4.jpg?simply_static_page=179
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:103] Filesize: 308334 bytes
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-4.jpg
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687b6036d-LEQafc.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/themes/gutenify-photoshot/images/gallery-4.jpg
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:55] [class-ss-page.php:118] Checking Content Identical:bc22a5d8a5c87b14147a0ed5ec6c75fda91cddd7===. Value: FALSE
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-5.jpg
+[2024-07-24 20:47:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 48
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687bb2ad2-3qwqv3.tmp
+[2024-07-24 20:47:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-5.jpg?simply_static_page=180
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-5.jpg?simply_static_page=180
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:103] Filesize: 83096 bytes
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-5.jpg
+[2024-07-24 20:47:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687bb2ad2-3qwqv3.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/themes/gutenify-photoshot/images/gallery-5.jpg
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:55] [class-ss-page.php:118] Checking Content Identical:bba212b3863022ea18313eee4ad3f1eb529b453c===. Value: FALSE
+[2024-07-24 20:47:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-6.jpg
+[2024-07-24 20:47:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 48
+[2024-07-24 20:47:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687c02c63-eL1XGf.tmp
+[2024-07-24 20:47:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-6.jpg?simply_static_page=181
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-6.jpg?simply_static_page=181
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:103] Filesize: 151200 bytes
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-6.jpg
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687c02c63-eL1XGf.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/themes/gutenify-photoshot/images/gallery-6.jpg
+[2024-07-24 20:47:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:56] [class-ss-page.php:118] Checking Content Identical:423e854f20c5f8d0024f1eaa16ff688eb06dd967===. Value: FALSE
+[2024-07-24 20:47:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-7.jpg
+[2024-07-24 20:47:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 48
+[2024-07-24 20:47:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687c549a3-x4R0bw.tmp
+[2024-07-24 20:47:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-7.jpg?simply_static_page=182
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-7.jpg?simply_static_page=182
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:103] Filesize: 167083 bytes
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-7.jpg
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687c549a3-x4R0bw.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/themes/gutenify-photoshot/images/gallery-7.jpg
+[2024-07-24 20:47:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:56] [class-ss-page.php:118] Checking Content Identical:7be6c38a36e638b0860b8b140ab75292e4f7259f===. Value: FALSE
+[2024-07-24 20:47:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-8.jpg
+[2024-07-24 20:47:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 48
+[2024-07-24 20:47:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687cb2396-GGQ12M.tmp
+[2024-07-24 20:47:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-8.jpg?simply_static_page=183
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images/gallery-8.jpg?simply_static_page=183
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:103] Filesize: 171458 bytes
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-8.jpg
+[2024-07-24 20:47:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687cb2396-GGQ12M.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/themes/gutenify-photoshot/images/gallery-8.jpg
+[2024-07-24 20:47:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:56] [class-ss-page.php:118] Checking Content Identical:bbd814a945ac0fcb99c397fd17acb2ca2c3b5408===. Value: FALSE
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/js/jquery/jquery.min.js
+[2024-07-24 20:47:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 48
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687d0b38f-DPeShb.tmp
+[2024-07-24 20:47:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/js/jquery/jquery.min.js?simply_static_page=184
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/js/jquery/jquery.min.js?simply_static_page=184
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:103] Filesize: 87555 bytes
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687d0b38f-DPeShb.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/js/jquery/jquery.min.js
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:57] [class-ss-page.php:118] Checking Content Identical:f1283d45dc3e33b703b48c9a9d9495b3b49fd2a1===. Value: FALSE
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-07-24 20:47:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 48
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687d5ee78-NN5etv.tmp
+[2024-07-24 20:47:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=185
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=185
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:103] Filesize: 13579 bytes
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687d5ee78-NN5etv.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:57] [class-ss-page.php:118] Checking Content Identical:2b3f380f212c8c64e79db1f47fa25c114afe6fbb===. Value: FALSE
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-07-24 20:47:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 48
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687daf1e2-M8PJmB.tmp
+[2024-07-24 20:47:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=186
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=186
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:103] Filesize: 146374 bytes
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-07-24 20:47:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687daf1e2-M8PJmB.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:58] [class-ss-page.php:118] Checking Content Identical:7996d63abbbbe06e4ccbfdcfcc1979b4ef224eb6===. Value: FALSE
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-07-24 20:47:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 48
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687e16632-ngXuPZ.tmp
+[2024-07-24 20:47:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=187
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=187
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:103] Filesize: 17388 bytes
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687e16632-ngXuPZ.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:58] [class-ss-page.php:118] Checking Content Identical:41cd89ef41484b59d50b766f5c8755c9a9084018===. Value: FALSE
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/js/animate.min.js
+[2024-07-24 20:47:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 48
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687e6787f-cjjVZu.tmp
+[2024-07-24 20:47:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/js/animate.min.js?simply_static_page=188
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/js/animate.min.js?simply_static_page=188
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:103] Filesize: 1377 bytes
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/js/animate.min.js
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687e6787f-cjjVZu.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/themes/gutenify-photoshot/js/animate.min.js
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:58] [class-ss-page.php:118] Checking Content Identical:fd88bf020cc59bc8e5da824f24678a8eae669161===. Value: FALSE
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/blocks/navigation/view.min.js
+[2024-07-24 20:47:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 48
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687eb211f-lapgz7.tmp
+[2024-07-24 20:47:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/blocks/navigation/view.min.js?simply_static_page=189
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/blocks/navigation/view.min.js?simply_static_page=189
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-07-24 20:47:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687eb211f-lapgz7.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/blocks/navigation/view.min.js
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:58] [class-ss-page.php:118] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-07-24 20:47:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 48
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687f0ae17-fCB9hk.tmp
+[2024-07-24 20:47:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=190
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=190
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:103] Filesize: 8171 bytes
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687f0ae17-fCB9hk.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:59] [class-ss-page.php:118] Checking Content Identical:60c8514c57a5db2980c4b046b0dd479bd427357b===. Value: FALSE
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-07-24 20:47:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 48
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687f58fb4-6YgxcP.tmp
+[2024-07-24 20:47:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=191
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=191
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:103] Filesize: 6625 bytes
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687f58fb4-6YgxcP.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:59] [class-ss-page.php:118] Checking Content Identical:0d792b33f12a48ee8aaaf2560a63a5682470645b===. Value: FALSE
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-07-24 20:47:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 48
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687fa7835-YRg6kc.tmp
+[2024-07-24 20:47:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=192
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=192
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:103] Filesize: 38590 bytes
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-07-24 20:47:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687fa7835-YRg6kc.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:47:59] [class-ss-page.php:118] Checking Content Identical:eab40ab4e77f92f2fb17684aaf44b579a51b8034===. Value: FALSE
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/js/dist/dom-ready.min.js
+[2024-07-24 20:47:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 48
+[2024-07-24 20:47:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1687ff1e17-94z2EV.tmp
+[2024-07-24 20:48:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/js/dist/dom-ready.min.js?simply_static_page=193
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/js/dist/dom-ready.min.js?simply_static_page=193
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:103] Filesize: 458 bytes
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/dom-ready.min.js
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1687ff1e17-94z2EV.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/js/dist/dom-ready.min.js
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:00] [class-ss-page.php:118] Checking Content Identical:ae9bf8529d4b118d5b9b6d8844f126f9feb801f7===. Value: FALSE
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/js/dist/hooks.min.js
+[2024-07-24 20:48:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 48
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a168804bb24-cHEHRj.tmp
+[2024-07-24 20:48:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/js/dist/hooks.min.js?simply_static_page=194
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/js/dist/hooks.min.js?simply_static_page=194
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:103] Filesize: 4308 bytes
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a168804bb24-cHEHRj.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/js/dist/hooks.min.js
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:00] [class-ss-page.php:118] Checking Content Identical:098bdcebba4204f965ddf06090e67ae6684fb033===. Value: FALSE
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/js/dist/i18n.min.js
+[2024-07-24 20:48:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 48
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a168808d3fd-POp6Zw.tmp
+[2024-07-24 20:48:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/js/dist/i18n.min.js?simply_static_page=195
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/js/dist/i18n.min.js?simply_static_page=195
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:103] Filesize: 9142 bytes
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a168808d3fd-POp6Zw.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/js/dist/i18n.min.js
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:00] [class-ss-page.php:118] Checking Content Identical:2ddaab766af85575ddc6af68c0f721119a7c68a1===. Value: FALSE
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/dist/frontend/index.js
+[2024-07-24 20:48:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 48
+[2024-07-24 20:48:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a16880cdce3-Mw4gYr.tmp
+[2024-07-24 20:48:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/dist/frontend/index.js?simply_static_page=196
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/dist/frontend/index.js?simply_static_page=196
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:103] Filesize: 3175 bytes
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-24 20:48:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/frontend/index.js
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a16880cdce3-Mw4gYr.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/plugins/gutenify/core/dist/frontend/index.js
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:01] [class-ss-page.php:118] Checking Content Identical:3d01c6b78e40a9a7c54d2b224e3a47a2029f5e89===. Value: FALSE
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/feed/
+[2024-07-24 20:48:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 48
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a168812505a-4oktue.tmp
+[2024-07-24 20:48:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/feed/?simply_static_page=197
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/feed/?simply_static_page=197
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:103] Filesize: 351 bytes
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a168812505a-4oktue.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/feed/index.html
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:01] [class-ss-page.php:118] Checking Content Identical:27265fde143074630dbfb61f57825b493a5b5f69===. Value: FALSE
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/comments/feed/
+[2024-07-24 20:48:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 48
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a168817a044-PHdToC.tmp
+[2024-07-24 20:48:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/comments/feed/?simply_static_page=198
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/comments/feed/?simply_static_page=198
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:103] Filesize: 1596 bytes
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a168817a044-PHdToC.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/comments/feed/index.html
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:01] [class-ss-page.php:118] Checking Content Identical:4f184dff2c71db72aa64c48b2006d3d24368ebd3===. Value: FALSE
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/blocks/navigation/style.min.css
+[2024-07-24 20:48:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 48
+[2024-07-24 20:48:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a16881d3754-zAEQwR.tmp
+[2024-07-24 20:48:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/blocks/navigation/style.min.css?simply_static_page=199
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/blocks/navigation/style.min.css?simply_static_page=199
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-24 20:48:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a16881d3754-zAEQwR.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/blocks/navigation/style.min.css
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:02] [class-ss-page.php:118] Checking Content Identical:a75edf5442c196d670e436c2f616ecd595e41d68===. Value: FALSE
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/blocks/social-links/style.min.css
+[2024-07-24 20:48:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 48
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1688231f37-Gd1B4s.tmp
+[2024-07-24 20:48:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/blocks/social-links/style.min.css?simply_static_page=200
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/blocks/social-links/style.min.css?simply_static_page=200
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:103] Filesize: 10602 bytes
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/social-links/style.min.css
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1688231f37-Gd1B4s.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/blocks/social-links/style.min.css
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:02] [class-ss-page.php:118] Checking Content Identical:6c08f679daa13a669bfdf48b1ca7a03f6312de07===. Value: FALSE
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/blocks/cover/style.min.css
+[2024-07-24 20:48:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 48
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a168827ea91-V37ojs.tmp
+[2024-07-24 20:48:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/blocks/cover/style.min.css?simply_static_page=201
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/blocks/cover/style.min.css?simply_static_page=201
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:103] Filesize: 18483 bytes
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/cover/style.min.css
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a168827ea91-V37ojs.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/blocks/cover/style.min.css
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:02] [class-ss-page.php:118] Checking Content Identical:ccfb7af42aa2a6c835fe114841124074d139e257===. Value: FALSE
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/blocks/image/style.min.css
+[2024-07-24 20:48:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 48
+[2024-07-24 20:48:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a16882cf741-laDp5B.tmp
+[2024-07-24 20:48:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/blocks/image/style.min.css?simply_static_page=202
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/blocks/image/style.min.css?simply_static_page=202
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:103] Filesize: 7049 bytes
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-07-24 20:48:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a16882cf741-laDp5B.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/blocks/image/style.min.css
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:03] [class-ss-page.php:118] Checking Content Identical:105a2ff003b77aefd61ecfb419b4690caa4c47bc===. Value: FALSE
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/blocks/gallery/style.min.css
+[2024-07-24 20:48:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 48
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a168832afb8-S17740.tmp
+[2024-07-24 20:48:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/blocks/gallery/style.min.css?simply_static_page=203
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/blocks/gallery/style.min.css?simply_static_page=203
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:103] Filesize: 15305 bytes
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/gallery/style.min.css
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a168832afb8-S17740.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/blocks/gallery/style.min.css
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:03] [class-ss-page.php:118] Checking Content Identical:804acf558af01f54052a7bdac05ef942c6ada35a===. Value: FALSE
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/css/font-awesome/css/all.css
+[2024-07-24 20:48:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 48
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1688379d37-s9Fph8.tmp
+[2024-07-24 20:48:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/css/font-awesome/css/all.css?simply_static_page=204
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/css/font-awesome/css/all.css?simply_static_page=204
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:103] Filesize: 75584 bytes
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/css/font-awesome/css/all.css
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1688379d37-s9Fph8.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/themes/gutenify-photoshot/css/font-awesome/css/all.css
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:03] [class-ss-page.php:118] Checking Content Identical:79444f05af0db64a86d5f533dc3e621eabe88b78===. Value: FALSE
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/dist/extend/responsive-display-control/style-index.css
+[2024-07-24 20:48:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 48
+[2024-07-24 20:48:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a16883d4fb2-v5SShM.tmp
+[2024-07-24 20:48:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/dist/extend/responsive-display-control/style-index.css?simply_static_page=205
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/dist/extend/responsive-display-control/style-index.css?simply_static_page=205
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:103] Filesize: 232 bytes
+[2024-07-24 20:48:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/extend/responsive-display-control/style-index.css
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a16883d4fb2-v5SShM.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/plugins/gutenify/core/dist/extend/responsive-display-control/style-index.css
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:04] [class-ss-page.php:118] Checking Content Identical:68a0e2cc04b5ec14bf8d809b48770687eaf038b1===. Value: FALSE
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/css/animate.css
+[2024-07-24 20:48:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 48
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1688433081-TNVHtf.tmp
+[2024-07-24 20:48:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/css/animate.css?simply_static_page=206
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/css/animate.css?simply_static_page=206
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:103] Filesize: 69160 bytes
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/css/animate.css
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1688433081-TNVHtf.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/themes/gutenify-photoshot/css/animate.css
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:04] [class-ss-page.php:118] Checking Content Identical:19c1f4288b310c6d13e3b07015e55a03378e35a2===. Value: FALSE
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/fonts/8d3723516739c350488c1cd09c10a0aa.css
+[2024-07-24 20:48:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 48
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1688488b06-hLTKe3.tmp
+[2024-07-24 20:48:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/fonts/8d3723516739c350488c1cd09c10a0aa.css?simply_static_page=207
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/fonts/8d3723516739c350488c1cd09c10a0aa.css?simply_static_page=207
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:103] Filesize: 31789 bytes
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/8d3723516739c350488c1cd09c10a0aa.css
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1688488b06-hLTKe3.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/fonts/8d3723516739c350488c1cd09c10a0aa.css
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:04] [class-ss-page.php:118] Checking Content Identical:8a6712a288038900ec55ccedb7e3b571f7050c30===. Value: FALSE
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/style.css
+[2024-07-24 20:48:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 48
+[2024-07-24 20:48:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a16884dcaaf-sBOB7U.tmp
+[2024-07-24 20:48:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/style.css?simply_static_page=208
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/style.css?simply_static_page=208
+[2024-07-24 20:48:04] [class-ss-url-fetcher.php:103] Filesize: 50896 bytes
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/style.css
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a16884dcaaf-sBOB7U.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/themes/gutenify-photoshot/style.css
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:05] [class-ss-page.php:118] Checking Content Identical:a794f6490954ce8bf590280e23947c5fcc686728===. Value: FALSE
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/css/theme-style.css
+[2024-07-24 20:48:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 48
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a168853877e-dqPhzV.tmp
+[2024-07-24 20:48:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/css/theme-style.css?simply_static_page=209
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/css/theme-style.css?simply_static_page=209
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:103] Filesize: 244 bytes
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/css/theme-style.css
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a168853877e-dqPhzV.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/themes/gutenify-photoshot/css/theme-style.css
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:05] [class-ss-page.php:118] Checking Content Identical:28e6a62f02f7aff8a2ebfbb0485fbb4d7860d1bc===. Value: FALSE
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-07-24 20:48:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 48
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1688582070-LCaXma.tmp
+[2024-07-24 20:48:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=210
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=210
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:103] Filesize: 55461 bytes
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1688582070-LCaXma.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:05] [class-ss-page.php:118] Checking Content Identical:eafb80e1290baa09b1b2a7e04428c879b0424b55===. Value: FALSE
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/fonts/3fb3bdec0cf60521d14a6b7a56fc69bc.css
+[2024-07-24 20:48:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 48
+[2024-07-24 20:48:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a16885dcb94-RaUd1y.tmp
+[2024-07-24 20:48:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/fonts/3fb3bdec0cf60521d14a6b7a56fc69bc.css?simply_static_page=211
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/fonts/3fb3bdec0cf60521d14a6b7a56fc69bc.css?simply_static_page=211
+[2024-07-24 20:48:05] [class-ss-url-fetcher.php:103] Filesize: 11874 bytes
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/3fb3bdec0cf60521d14a6b7a56fc69bc.css
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a16885dcb94-RaUd1y.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/fonts/3fb3bdec0cf60521d14a6b7a56fc69bc.css
+[2024-07-24 20:48:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:06] [class-ss-page.php:118] Checking Content Identical:4781771bad12658e956fc2c6bad15def9955c580===. Value: FALSE
+[2024-07-24 20:48:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/dist/frontend/index.css
+[2024-07-24 20:48:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 48
+[2024-07-24 20:48:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a168863d187-LVsTnA.tmp
+[2024-07-24 20:48:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/dist/frontend/index.css?simply_static_page=212
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-content/plugins/gutenify/core/dist/frontend/index.css?simply_static_page=212
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:103] Filesize: 20338 bytes
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/frontend/index.css
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a168863d187-LVsTnA.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-content/plugins/gutenify/core/dist/frontend/index.css
+[2024-07-24 20:48:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:06] [class-ss-page.php:118] Checking Content Identical:be3ec737e679ebabdf80221f9107ffb6a5e586fb===. Value: FALSE
+[2024-07-24 20:48:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-json/
+[2024-07-24 20:48:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 48
+[2024-07-24 20:48:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a168869af95-E1oiPi.tmp
+[2024-07-24 20:48:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-json/?simply_static_page=213
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-json/?simply_static_page=213
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:103] Filesize: 200560 bytes
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-07-24 20:48:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a168869af95-E1oiPi.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-json/index.html
+[2024-07-24 20:48:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:07] [class-ss-page.php:118] Checking Content Identical:6b84e0ec71cb1855ccb5ea846504bdb6c7a51c69===. Value: FALSE
+[2024-07-24 20:48:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/xmlrpc.php
+[2024-07-24 20:48:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 48
+[2024-07-24 20:48:07] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/staff-modelaje-profesional/xmlrpc.php
+[2024-07-24 20:48:07] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-24 20:48:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/wp-includes/js/dist/interactivity.min.js
+[2024-07-24 20:48:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 48
+[2024-07-24 20:48:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a168880a1b2-JdSERY.tmp
+[2024-07-24 20:48:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/wp-includes/js/dist/interactivity.min.js?simply_static_page=215
+[2024-07-24 20:48:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/wp-includes/js/dist/interactivity.min.js?simply_static_page=215
+[2024-07-24 20:48:08] [class-ss-url-fetcher.php:103] Filesize: 35086 bytes
+[2024-07-24 20:48:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-24 20:48:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-07-24 20:48:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a168880a1b2-JdSERY.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/wp-includes/js/dist/interactivity.min.js
+[2024-07-24 20:48:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:08] [class-ss-page.php:118] Checking Content Identical:c1df2a38ccdb1e2802b43b442dceaf4582286046===. Value: FALSE
+[2024-07-24 20:48:08] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 48 pages/files
+[2024-07-24 20:48:08] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-24 20:48:12] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-24 20:48:13] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-24 20:48:13] [class-ss-fetch-urls-task.php:69] Total pages: 49; Pages remaining: 1
+[2024-07-24 20:48:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/staff-modelaje-profesional/feed/index.xml
+[2024-07-24 20:48:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 49
+[2024-07-24 20:48:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-24 20:48:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1688d2064a-650zAK.tmp
+[2024-07-24 20:48:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/feed/index.xml?simply_static_page=216
+[2024-07-24 20:48:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/feed/index.xml?simply_static_page=216
+[2024-07-24 20:48:13] [class-ss-url-fetcher.php:103] Filesize: 1990 bytes
+[2024-07-24 20:48:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-07-24 20:48:13] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-07-24 20:48:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1688d2064a-650zAK.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050/feed/index.xml
+[2024-07-24 20:48:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-24 20:48:13] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-24 20:48:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-24 20:48:13] [class-ss-page.php:118] Checking Content Identical:aa9896f05fe4de60ef5aa00601a168d8a0ff1919===. Value: FALSE
+[2024-07-24 20:48:13] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 48 of 49 pages/files
+[2024-07-24 20:48:13] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-24 20:48:13] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-24 20:48:13] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-24 20:48:13] [class-ss-fetch-urls-task.php:69] Total pages: 49; Pages remaining: 0
+[2024-07-24 20:48:13] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 49 of 49 pages/files
+[2024-07-24 20:48:13] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-07-24 20:48:13] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-07-24 20:48:13] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-07-24 20:48:13] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-07-24 20:48:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66a1688dbd6b1-VGFXIz.tmp
+[2024-07-24 20:48:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/staff-modelaje-profesional/1721854094?simply_static_page=0
+[2024-07-24 20:48:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/staff-modelaje-profesional/1721854094?simply_static_page=0
+[2024-07-24 20:48:19] [class-ss-url-fetcher.php:103] Filesize: 80215 bytes
+[2024-07-24 20:48:19] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-24 20:48:19] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-07-24 20:48:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66a1688dbd6b1-VGFXIz.tmp to C:\xampp\htdocs\staff-modelaje-profesional/wp-content/uploads\simply-static\temp-files/simply-static-1-1721854050\404/index.html
+[2024-07-24 20:48:19] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-07-24 20:48:20] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-07-24 20:48:20] [class-ss-page.php:118] Checking Content Identical:81a64047927e21a51789b376e49a2aeb72ca73cc===. Value: FALSE
+[2024-07-24 20:48:20] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-07-24 20:48:20] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-07-24 20:48:20] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-07-24 20:48:20] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-07-24 20:48:20] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 46 of 46 files
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/pagina-ejemplo
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/category/sin-categoria
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/2024/07/14/hola-mundo
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/2024/07
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/images
+[2024-07-24 20:48:20] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/js/jquery
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/js/jquery
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/plugins/gutenify/core/assets/js/lib
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/js
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/blocks/navigation
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/js/dist/vendor
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/js/dist/vendor
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/js/dist/vendor
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/js/dist
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/js/dist
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/js/dist
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/plugins/gutenify/core/dist/frontend
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/feed
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/comments/feed
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/blocks/navigation
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/blocks/social-links
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/blocks/cover
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/blocks/image
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/blocks/gallery
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/css/font-awesome/css
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/plugins/gutenify/core/dist/extend/responsive-display-control
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/css
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/fonts
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/themes/gutenify-photoshot/css
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/plugins/gutenify/core/assets/fontawesome/css
+[2024-07-24 20:48:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/fonts
+[2024-07-24 20:48:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-content/plugins/gutenify/core/dist/frontend
+[2024-07-24 20:48:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-json
+[2024-07-24 20:48:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/wp-includes/js/dist
+[2024-07-24 20:48:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/staff-modelaje-profesional/feed
+[2024-07-24 20:48:22] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:46. Processed Pages: 46
+[2024-07-24 20:48:22] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 46 of 46 files
+[2024-07-24 20:48:22] [trait-can-process-pages.php:103] Total pages: 46; Pages remaining: 0
+[2024-07-24 20:48:22] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-07-24 20:48:22] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://modelbolivia.github.io/staff-modelaje-profesional/" target="_blank">https://modelbolivia.github.io/staff-modelaje-profesional/</a>
+[2024-07-24 20:48:22] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-07-24 20:48:22] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-07-24 20:48:22] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-07-24 20:48:22] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-07-24 20:48:22] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-07-24 20:48:22] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-07-24 20:48:22] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-07-24 20:48:22] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:52
